@@ -1,0 +1,211 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Wp Post Rating\n"
+"POT-Creation-Date: 2020-08-17 21:42+0300\n"
+"PO-Revision-Date: 2020-08-17 21:42+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wp-post-rating.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: views/admin/menu/stars-menu.twig:1
+msgid "Stars rating"
+msgstr "Звездный рейтинг"
+
+#: views/admin/parts/item-menu.twig:2 views/admin/ratings-table.twig:2
+msgid "Settings"
+msgstr "Настройки"
+
+#: views/admin/ratings-table.twig:4
+msgid "Stars rating list"
+msgstr "Список всех голосов"
+
+#: views/admin/settings.twig:4
+msgid "All votes"
+msgstr "Все голоса"
+
+#: views/admin/settings.twig:6
+msgid "Star rating settings"
+msgstr "Настройки звездного рейтинга"
+
+#: views/admin/settings.twig:10 views/admin/settings.twig:15
+msgid "Star rating position in content"
+msgstr "Позиция рейтинга в контенте"
+
+#: views/admin/settings.twig:20
+msgid "How to custom display rating widget. Shortcode or PHP"
+msgstr "Как программно вывести рейтинг на сайте. Шорткодом или PHP кодом"
+
+#: views/admin/settings.twig:23
+msgid "Display in content"
+msgstr "Как показать в контенте"
+
+#: views/admin/settings.twig:29
+msgid "Display total votes for current post"
+msgstr "Показать количество проголосовавших для текущего поста"
+
+#: views/admin/settings.twig:36
+msgid "Display average votes for current post"
+msgstr "Показать среднее число голосов для текущего поста"
+
+#: views/admin/settings.twig:63 views/star-rating.twig:12
+msgid "Votes"
+msgstr "Голосов"
+
+#: views/admin/settings.twig:72 views/admin/settings.twig:77
+msgid "Stars color"
+msgstr "Цвет звезд"
+
+#: views/admin/settings.twig:82
+msgid "Second (darker) color choose automatically"
+msgstr "Дополнительный (темный) цвет подбирается автоматически"
+
+#: views/admin/settings.twig:91
+msgid "Text (border) color"
+msgstr "Цвет текста (рамки вокруг)"
+
+#: views/admin/settings.twig:102
+msgid "Tooltip background color"
+msgstr "Цвет тултипа, бэкраунда"
+
+#: views/admin/settings.twig:113
+msgid "Enable schema markup"
+msgstr "Активировать Schema.org разметку. Для SEO"
+
+#: views/star-rating.twig:15
+msgid "Vote"
+msgstr "Голосовать"
+
+#: src/Service/Admin/AdminMenuService.php:35
+#: src/Service/Admin/AdminMenuService.php:36
+msgid "WPR Settings"
+msgstr "Настройки звездного рейтинга"
+
+#: src/Service/MaintenanceService.php:53
+#, php-format
+msgid ""
+"<p>The <strong>WP POST RATING</strong> plugin requires versions minimum PHP "
+">= %s <b>(Your is %s)</b> and WP >= %s <b>(Your is %s)</b></p>"
+msgstr ""
+"<p><strong>WP POST RATING</strong> плагин требует версии минимально PHP >= "
+"%s <b>(Ваша %s)</b> и WP >= %s <b>(Ваша %s)</b></p>"
+
+#: src/Service/SettingFormService.php:95
+msgid "Settings saved successful"
+msgstr "Настройки успешно сохранены"
+
+#: src/Views/Admin/RatingTableView.php:74
+msgid "id"
+msgstr "id"
+
+#: src/Views/Admin/RatingTableView.php:75
+msgid "User"
+msgstr "Пользователь"
+
+#: src/Views/Admin/RatingTableView.php:76
+msgid "Post"
+msgstr "Пост"
+
+#: src/Views/Admin/RatingTableView.php:77
+msgid "Vote result"
+msgstr "Голос"
+
+#: src/Views/Admin/RatingTableView.php:78
+msgid "IP adress"
+msgstr "IP адрес"
+
+#: src/Views/Admin/RatingTableView.php:79
+msgid "Date create"
+msgstr "Дата создания"
+
+#: src/Views/Admin/RatingTableView.php:107
+msgid "Delete"
+msgstr "Удалить"
+
+#: src/Views/Admin/RatingTableView.php:154
+#, php-format
+msgid "Deleted %s vote"
+msgid_plural "Deleted %s votes"
+msgstr[0] "Удален %s голос"
+msgstr[1] "Удалено %s голоса"
+msgstr[2] "Удалено %s голосов"
+
+#: src/Views/Admin/RatingTableView.php:160
+msgid "No ratings avaliable."
+msgstr "Пока никто не голосовал."
+
+#: src/Views/Admin/RatingTableView.php:220 src/Wordpress/WPR_Widget.php:189
+msgid "Guest"
+msgstr "Гость"
+
+#: src/Wordpress/WPR_Widget.php:26
+msgid "List posts by rating"
+msgstr "Список записей по рейтингу"
+
+#: src/Wordpress/WPR_Widget.php:27
+msgid "You may order displayed posts"
+msgstr "Вы можете настроить сортировку выводимых записей"
+
+#: src/Wordpress/WPR_Widget.php:53
+msgid "New title"
+msgstr "Новый заголовок"
+
+#: src/Wordpress/WPR_Widget.php:92
+msgid "Title"
+msgstr "Заголовок"
+
+#: src/Wordpress/WPR_Widget.php:98
+msgid "Count of posts"
+msgstr "Количество записей"
+
+#: src/Wordpress/WPR_Widget.php:108
+msgid "Order by"
+msgstr "Сортировать по"
+
+#: src/Wordpress/WPR_Widget.php:114
+msgid "Sort by"
+msgstr "Сортировать как"
+
+#: src/Wordpress/WPR_Widget.php:123
+msgid "Wrapper posts"
+msgstr "Оболочка записей"
+
+#: src/Wordpress/WPR_Widget.php:130
+msgid "Wrapper for all posts, supports shortcodes: "
+msgstr "Оболочка всех записей, поддерживает шорткоды: "
+
+#: src/Wordpress/WPR_Widget.php:137
+msgid "Wrapper one post"
+msgstr "Оболочка одной записи"
+
+#: src/Wordpress/WPR_Widget.php:144
+msgid "Wrapper for one post, supports shortcodes: "
+msgstr "Оболочка для одной записи, поддерживает шорткоды: "
+
+#: src/Wordpress/WPR_Widget.php:150
+msgid "Date format"
+msgstr "Формат даты"
+
+#: src/Wordpress/WPR_Widget.php:154
+msgid ""
+"Dates formats is here <a href=\"https://codex.wordpress.org/"
+"Formatting_Date_and_Time\">https://codex.wordpress.org/"
+"Formatting_Date_and_Time</a>"
+msgstr ""
+"Всевозможные форматы  даты доступны по ссылке <a href=\"https://codex."
+"wordpress.org/Formatting_Date_and_Time\">https://codex.wordpress.org/"
+"Formatting_Date_and_Time</a>"
